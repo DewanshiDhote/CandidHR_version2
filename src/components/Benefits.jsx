@@ -8,10 +8,10 @@ import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section id="features" className="bg-black">
       <div className="container relative z-2">
         <Heading
-          className="md:max-w-md lg:max-w-2xl"
+          className="md:max-w-md lg:max-w-2xl "
           title="All-in-One Solution for Smarter, Faster Hiring"
         />
 

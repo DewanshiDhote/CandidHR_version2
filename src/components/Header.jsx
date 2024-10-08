@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
- 
+ import "../components/styles/hero.css"
 import image from "../assests1/about_logo.png";
 import { navigation } from "../constants";
 import Button from "./Button";
@@ -74,11 +74,17 @@ const Header = () => {
  
           <HamburgerMenu />
         </nav>
+
+        <a
+          href="#collaboration"
+          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
+        >
+       About Us
+        </a>
  
-        <Button className="hidden lg:flex" href="#login">
-          Contact
-        </Button>
- 
+        <a href="/demo" className=" bg-gradient-to-r from-[#5459b9] to-[#AEECF9] text-white py-3 px-6 rounded-full shadow-md hover:shadow-lg">
+            Request Demo
+          </a>
         <Button
           className="ml-auto lg:hidden"
           px="px-3"

@@ -33,8 +33,9 @@ import {
   sliders04,
   telegram,
   twitter,
-  yourlogo,
+ 
 } from "../assets";
+
 
 export const navigation = [
   {
@@ -59,8 +60,15 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "About Us",
-    url: "#aboutus",
+    title: "about us",
+    url: "#collaboration",
+    onlyMobile: true,
+  },
+  {
+    id: "5",
+    title: "Sign in",
+    url: "#login",
+    onlyMobile: true,
   },
   
   
@@ -236,51 +244,51 @@ export const benefits = [
     id: "0",
     title: "Resume Screening & Matching",
     text: "AI-driven matching that aligns resumes with job descriptions, ensuring the right candidates rise to the top.",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: "./src/assests1/about_logo.png",
   },
   {
     id: "1",
-    title: "Centralized Resume Repository:",
+    title: "Centralized Resume Repository",
     text: "Store and search resumes in an intuitive, organized system for future use.",
-    backgroundUrl: "./src/assets/benefits/card-2.svg",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: "./src/assests1/about_logo.png",
     light: true,
   },
   {
     id: "2",
-    title: "AI-Powered Candidate Ranking:",
+    title: "AI-Powered Candidate Ranking",
     text: "Analyze and rank candidates based on key skills, experience, and job relevance.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    imageUrl: "./src/assests1/about_logo.png",
   },
   {
     id: "3",
-    title: "Personality Screening:",
+    title: "Personality Screening",
     text: "Conduct automated video and audio interviews to assess candidate personalities, reducing bias and manual effort.",
-    backgroundUrl: "./src/assets/benefits/card-4.svg",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
+    imageUrl: "./src/assests1/about_logo.png",
     light: true,
   },
   {
     id: "4",
-    title: "Technical Test Integration:",
+    title: "Technical Test Integration",
     text: "Built-in technical test capabilities to ensure candidates meet the required skill levels.",
-    backgroundUrl: "./src/assets/benefits/card-5.svg",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    imageUrl: "./src/assests1/about_logo.png",
   },
   {
     id: "5",
-    title: "Seamless Integration:",
+    title: "Seamless Integration",
     text: "Integrate easily with your existing HR systems and workflows.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    imageUrl: "./src/assests1/about_logo.png",
   },
 ];
 

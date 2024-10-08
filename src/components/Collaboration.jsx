@@ -1,5 +1,5 @@
-import { brainwaveSymbol, check } from "../assets";
-import { collabApps, collabContent, collabText, collabText1 } from "../constants";
+import { } from "../assets";
+import { collabApps, collabContent } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
@@ -7,7 +7,7 @@ import about_logo from '../assests1/about_logo.png';
 
 const Collaboration = () => {
   return (
-    <Section crosses id='aboutus'>
+    <Section crosses id='collaboration'>
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">

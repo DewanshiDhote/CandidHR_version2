@@ -1,102 +1,176 @@
-import { curve, heroBackground, robot } from "../assets";
-import Button from "./Button";
 import Section from "./Section";
-import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
-import { heroIcons } from "../constants";
-import { ScrollParallax } from "react-just-parallax";
+import { BackgroundCircles } from "./design/Hero";
 import { useRef } from "react";
-import Generating from "./Generating";
-import Notification from "./Notification";
-import CompanyLogos from "./CompanyLogos";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
 
   return (
-    <Section
-      className="pt-[12rem] -mt-[5.25rem]"
-      crosses
-      crossesOffset="lg:translate-y-[5.25rem]"
-      customPaddings
-      id="hero"
-    >
-      <div className="container relative" ref={parallaxRef}>
-        <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
-          <h1 className="h1 mb-6">
-          Revolutionize Hiring&nbsp;with&nbsp;AI Powered {` `}
-            <span className="inline-block relative">
-            Efficiency{" "}
-              <img
-                src={curve}
-                className="absolute top-full left-0 w-full xl:-mt-2"
-                width={624}
-                height={28}
-                alt="Curve"
-              />
-            </span>
-          </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-           Discover the power of candidhr – transforming hiring with intelligent automation.
-          </p>
-          <Button href="/pricing" white>
-            Request a Demo
-          </Button>
+   <>
+    <Section className="relative bg-gradient-to-b from-[#1C1132] to-[#000000] pt-20 pb-32 text-center text-white min-h-screen">
+      {/* Centered Background Circles */}
+    
+      {/* Hero Content */}
+      <div ref={parallaxRef} className="container mx-auto relative z-10">
+        <div className="mb-15 mt-20">
+          <a
+            href="/demo"
+            className=" bg-gray-800 text-white py-3 px-6 rounded-full shadow-md hover:shadow-lg"
+          >
+            Welcome to
+          </a>
         </div>
-        <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
-          <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
-            <div className="relative bg-n-8 rounded-[1rem]">
-              <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
+        <h1 className="text-8xl font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-[#7076F2] to-[#AEECF9]">
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7076F2] to-[#AEECF9]">
+            CandidHR.ai
+          </span>
+        </h1>
+       
 
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
-                <img
-                  src={robot}
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
-                  width={1024}
-                  height={490}
-                  alt="AI"
-                />
-
-                <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
-
-                <ScrollParallax isAbsolutelyPositioned>
-                  <ul className="hidden absolute -left-[5.5rem] bottom-[7.5rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
-                    {heroIcons.map((icon, index) => (
-                      <li className="p-5" key={index}>
-                        <img src={icon} width={24} height={25} alt={icon} />
-                      </li>
-                    ))}
-                  </ul>
-                </ScrollParallax>
-
-                <ScrollParallax isAbsolutelyPositioned>
-                  <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[20rem] xl:flex"
-                    title="What is CandidHR.ai?"
-                  />
-                </ScrollParallax>
-              </div>
-            </div>
-
-            <Gradient />
-          </div>
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-            <img
-              src={heroBackground}
-              className="w-full"
-              width={1440}
-              height={1800}
-              alt="hero"
-            />
-          </div>
-
-          <BackgroundCircles />
-        </div>
-
-        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
+        <p className="text-5xl mb-8 font-semibold">
+          Revolutionizing the Hiring Process
+        </p>
+        <p className="text-gray-300 mb-10 text-lg">
+          In today's fast-paced business world, time is money. HR professionals
+          and hiring managers are constantly
+          <br /> overwhelmed by a sea of resumes, struggling to sift through
+          candidates efficiently. CandidHR.ai is here to change that.
+        </p>
+        <div className="absolute inset-0 z-0 flex justify-center items-center">
+        <BackgroundCircles />
       </div>
 
-      <BottomLine />
+        {/* CTA Buttons */}
+        <div className="flex justify-center space-x-6 mb-16">
+          <a
+            href="/demo"
+            className="bg-gradient-to-r from-[#5459b9] to-[#AEECF9] text-white py-3 px-6 rounded-full shadow-md hover:shadow-lg"
+          >
+            Request Demo
+          </a>
+          <a
+            href="/contact"
+            className="border border-blue-500 text-white py-3 px-6 rounded-full hover:bg-blue-500"
+          >
+            Contact Us
+          </a>
+        </div>
+
+        {/* Statistics Section */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="p-8 bg-white/20 text-black rounded-lg shadow-md">
+            <h3 className="text-xl font-bold mb-2 text-white">
+              Accelerate Recruitment Process by
+            </h3>
+            <p className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-[#7076F2] to-[#ba83ece8]">
+              4x
+            </p>
+          </div>
+          <div className="p-8 bg-white/20 text-black rounded-lg shadow-md">
+            <h3 className="text-xl font-bold mb-2 text-white">
+              Increase Hiring Efficiency by
+            </h3>
+            <p className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-[#7076F2] to-[#ba83ece8]">
+              80%
+            </p>
+          </div>
+          <div className="p-8 bg-white/20 text-black rounded-lg shadow-md">
+            <h3 className="text-xl font-bold mb-2 text-white">
+              Improve Quality Hiring by
+            </h3>
+            <p className="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-b from-[#7076F2] to-[#ba83ece8]">
+              99%
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div className="container mx-auto text-center mt-40">
+        {/* Heading */}
+        <h2 className="text-6xl font-bold text-white mb-8 leading-normal">
+          Supercharge your hiring process<br/> using{" "}
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7076F2] to-[#AEECF9]">
+            CandidHR.ai
+          </span>
+        </h2>
+
+        {/* Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mt-16">
+          {/* Card 1 */}
+          <div className="bg-[#2c2f48] p-8 rounded-xl text-white shadow-md flex items-center space-x-4">
+            <div>
+              {/* Icon Placeholder */}
+              <div className="w-16 h-16 bg-gradient-to-r from-[#7076F2] to-[#AEECF9] rounded-full flex justify-center items-center">
+                {/* Add Icon SVG here */}
+                <span className="text-3xl">📊</span>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">AI-Powered Candidate Ranking</h3>
+              <p className="text-gray-300">
+                Automate resume screening and rank candidates with precision.
+              </p>
+            </div>
+          </div>
+
+          {/* Card 2 */}
+          <div className="bg-[#2c2f48] p-8 rounded-xl text-white shadow-md flex items-center space-x-4">
+            <div>
+              {/* Icon Placeholder */}
+              <div className="w-16 h-16 bg-gradient-to-r from-[#7076F2] to-[#AEECF9] rounded-full flex justify-center items-center">
+                {/* Add Icon SVG here */}
+                <span className="text-3xl">🧑‍💼</span>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Streamlined Personality Screening</h3>
+              <p className="text-gray-300">
+                Leverage video and audio interviews to evaluate personality fit.
+              </p>
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className="bg-[#2c2f48] p-8 rounded-xl text-white shadow-md flex items-center space-x-4">
+            <div>
+              {/* Icon Placeholder */}
+              <div className="w-16 h-16 bg-gradient-to-r from-[#7076F2] to-[#AEECF9] rounded-full flex justify-center items-center">
+                {/* Add Icon SVG here */}
+                <span className="text-3xl">📄</span>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Comprehensive Hiring Workflow</h3>
+              <p className="text-gray-300">
+                From resume parsing to technical tests, CandidHR streamlines every step.
+              </p>
+            </div>
+          </div>
+
+          {/* Card 4 */}
+          <div className="bg-[#2c2f48] p-8 rounded-xl text-white shadow-md flex items-center space-x-4">
+            <div>
+              {/* Icon Placeholder */}
+              <div className="w-16 h-16 bg-gradient-to-r from-[#7076F2] to-[#AEECF9] rounded-full flex justify-center items-center">
+                {/* Add Icon SVG here */}
+                <span className="text-3xl">⚡</span>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-xl font-semibold">Maximized Efficiency</h3>
+              <p className="text-gray-300">
+                Cut manual tasks by 90%, focusing on the final interview with top candidates.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Line */}
+      
     </Section>
+
+   </>
   );
 };
 
