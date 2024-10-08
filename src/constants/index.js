@@ -81,9 +81,9 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [];
 
 export const brainwaveServices = [
-  "Bulk or Individual Resume Uploads",
-  "Resume Parsing",
-  "Searchable Repository",
+  "Automated Screening",
+  "Enhanced Interviews",
+  "Data-Driven Insights",
 ];
 
 export const brainwaveServicesIcons = [

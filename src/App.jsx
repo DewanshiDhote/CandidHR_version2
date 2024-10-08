@@ -7,18 +7,21 @@ import Hero from "./components/Hero";
 import Pricing from "./components/Pricing";
 import Roadmap from "./components/Roadmap";
 import Services from "./components/Services";
+import Chatbot from "./components/Chatbot";
 
 const App = () => {
   return (
     <>
       <div className="pt-[4.75rem] lg:pt-[5.25rem] overflow-hidden">
         <Header />
+        <Chatbot/>
         <Hero />
         <Benefits />
         <Services />
-        <Pricing />
         <Roadmap />
+        <Pricing />
         <Collaboration />
+       
         <Footer />
       </div>
 
