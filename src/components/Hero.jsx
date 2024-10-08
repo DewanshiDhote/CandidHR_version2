@@ -70,7 +70,7 @@ const Hero = () => {
           Revolutionizing the Hiring Process
         </p>
         <p className="text-gray-300 mb-10 text-lg">
-          In today's fast-paced business world, time is money. HR professionals
+          In todays fast-paced business world, time is money. HR professionals
           and hiring managers are constantly
           <br /> overwhelmed by a sea of resumes, struggling to sift through
           candidates efficiently. CandidHR.ai is here to change that.

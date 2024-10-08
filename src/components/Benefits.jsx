@@ -6,9 +6,11 @@ import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
 
 
+
 const Benefits = () => {
   return (
-    <Section id="features" className="bg-black">
+    <Section id="features" className=" relative z-0">
+      
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl "
@@ -47,17 +49,19 @@ const Benefits = () => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-20">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}
-                      width={380}
-                      height={362}
+                      width={180}
+                      height={170}
                       alt={item.title}
-                      className="w-full h-full object-cover"
+                      className=" object-cover absolute bottom-0 right-0 pb-10"
                     />
                   )}
                 </div>
+
+
               </div>
 
               <ClipPath />

@@ -1,6 +1,6 @@
 import { } from "../assets";
 import { collabApps, collabContent } from "../constants";
-import Button from "./Button";
+
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 import about_logo from '../assests1/about_logo.png';
@@ -39,7 +39,12 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button >Try it now</Button>
+          <a
+            href="/demo"
+            className="bg-gradient-to-r from-[#5459b9] to-[#AEECF9] text-black py-3 px-6 rounded-full shadow-md hover:shadow-lg"
+          >
+           Try it now
+          </a>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4">

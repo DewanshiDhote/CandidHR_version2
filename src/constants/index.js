@@ -77,9 +77,9 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 export const companyLogos = [];
 
 export const brainwaveServices = [
-  "Bulk or Individual Resume Uploads",
-  "Resume Parsing",
-  "Searchable Repository",
+  "Automated Screening",
+  "Enhanced Interviews",
+  "Data-Driven Insights",
 ];
 
 export const brainwaveServicesIcons = [
