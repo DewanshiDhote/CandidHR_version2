@@ -84,7 +84,7 @@ const Services = () => {
               <div className="py-12 px-4 xl:px-8">
                 <h4 className="h4 mb-4">Enchnaces candidate assessments</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                Advanced AI algorithms that analyze skills and competencies, providing deeper insights into each applicant's qualification.
+                Advanced AI algorithms that analyze skills and competencies, providing deeper insights into each applicants qualification.
                 </p>
 
                 
