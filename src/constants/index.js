@@ -3,7 +3,7 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2,
+  
   chromecast,
   disc02,
   discord,
@@ -14,9 +14,7 @@ import {
   framer,
   homeSmile,
   instagram,
-  notification2,
-  notification3,
-  notification4,
+ 
   notion,
   photoshop,
   plusSquare,
@@ -40,7 +38,7 @@ import {
 export const navigation = [
   {
     id: "0",
-    title: "Features",
+    title: "Benefits",
     url: "#features",
   },
   {
@@ -55,7 +53,7 @@ export const navigation = [
   },
   {
     id: "3",
-    title: "Benefits",
+    title: "Features",
     url: "#roadmap",
   },
   {
@@ -75,8 +73,6 @@ export const navigation = [
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
-
-export const notificationImages = [notification4, notification3, notification2];
 
 export const companyLogos = [];
 
