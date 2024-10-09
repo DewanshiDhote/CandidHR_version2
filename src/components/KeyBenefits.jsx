@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { FaBuilding, FaUsers, FaUniversity } from 'react-icons/fa'; // Importing icons from react-icons
 
 const KeyBenefits = () => {
@@ -23,7 +23,7 @@ const KeyBenefits = () => {
   return (
     <section className=" py-16">
       <div className="max-w-7xl mx-auto px-8">
-        <h2 className="text-4xl font-bold text-center  mb-12 text-white">Who can benefit from us?</h2>
+        <h2 className="text-5xl font-semibold  text-center  mb-20 text-white">Who can benefit from us?</h2>
 
         <div className="flex flex-wrap justify-center gap-10">
           {benefits.map((benefit, index) => (

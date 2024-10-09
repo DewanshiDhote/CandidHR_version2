@@ -82,7 +82,7 @@ const Header = () => {
        About Us
         </a>
  
-        <a href="/demo" className=" bg-gradient-to-r from-[#5459b9] to-[#AEECF9] text-white py-3 px-6 rounded-full shadow-md hover:shadow-lg">
+        <a href="/demo" className=" bg-gradient-to-r from-[#5459b9] to-[#AEECF9] text-black hover:text-white py-2 px-4 rounded-full shadow-md hover:shadow-lg">
             Request Demo
           </a>
         <Button

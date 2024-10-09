@@ -24,7 +24,7 @@ const Statistics = () => {
         <div className="bg-[#2c2f48] p-6 rounded-xl text-white shadow-md flex items-center space-x-4 w-1/3 h-40">
           <div className="text-left flex-grow">
             <h3 className="text-xl font-semibold">AI-Powered Candidate Ranking</h3>
-            <p className="text-gray-300">
+            <p className="text-gray-300 mt-3">
               Automate resume screening and rank candidates with precision.
             </p>
           </div>
@@ -37,7 +37,7 @@ const Statistics = () => {
         <div className="bg-[#2c2f48] p-6 rounded-xl text-white shadow-md flex items-center space-x-4 w-2/3 h-40">
           <div className="text-left flex-grow">
             <h3 className="text-xl font-semibold">Streamlined<br/> Personality Screening</h3>
-            <p className="text-gray-300">
+            <p className="text-gray-300 mt-3">
               Leverage video and audio interviews to evaluate personality fit.
             </p>
           </div>
@@ -56,7 +56,7 @@ const Statistics = () => {
           </div>
           <div className="flex-grow text-right">
             <h3 className="text-xl font-semibold">Comprehensive Hiring Workflow</h3>
-            <p className="text-gray-300 mt-5">
+            <p className="text-gray-300 mt-3">
               From resume parsing to technical tests, CandidHR streamlines every step.
             </p>
           </div>
@@ -69,7 +69,7 @@ const Statistics = () => {
           </div>
           <div className="flex-grow text-right">
             <h3 className="text-xl font-semibold">Maximized Efficiency</h3>
-            <p className="text-gray-300">
+            <p className="text-gray-300 mt-3">
               Cut manual tasks by 90%, focusing on the final interview with top candidates.
             </p>
           </div>

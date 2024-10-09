@@ -6,7 +6,7 @@ import gradiant_image from '../assests1/gradiant.png';
 const Pricing = () => {
   return (
     <Section className=" relative z-2" id="pricing">
-      <div className="absolute top-0 right-0 z-[-1]  w-1/2 h-auto">
+      <div className="absolute top-0 right-0 z-[-1]  h-auto">
       <img
         src={gradiant_image}
         alt="Gradient Background"
@@ -22,10 +22,10 @@ const Pricing = () => {
     </div>
       <div className="container ">
       
-        <Heading
-          tag=""
-          title="Get started with CandidHR.ai"
-        />
+        <h1 className="text-center mb-15 text-5xl font-semibold">  Get started with <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7076F2] to-[#AEECF9]">CandidHR.ai</span></h1>
+         
+        
+       
         
 
         <div className="relative">
@@ -34,14 +34,7 @@ const Pricing = () => {
           <RightLine />
         </div>
 
-        <div className="flex justify-center mt-10">
-          <a
-            className="text-xs font-code font-bold tracking-wider uppercase border-b"
-            href="/pricing"
-          >
-            See the full details
-          </a>
-        </div>
+       
       </div>
     </Section>
   );

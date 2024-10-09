@@ -1,4 +1,4 @@
-import React from 'react';
+
 import dotted_bg_img from "../assests1/dotted_bg.png";
 import gradian_image from '../assests1/gradiant.png';
 

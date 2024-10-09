@@ -13,7 +13,7 @@ const Benefits = () => {
       
       <div className="container relative z-2">
         <Heading
-          className="md:max-w-md lg:max-w-2xl "
+          className="md:max-w-md lg:max-w-2xl font-semibold "
           title="All-in-One Solution for Smarter, Faster Hiring"
         />
 

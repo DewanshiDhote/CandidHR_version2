@@ -12,7 +12,7 @@ const Hero = () => {
   const parallaxRef = useRef(null);
 
   return (
-    <Section className="relative py-10 lg:py-16 xl:py-20 pt-20 pb-32 text-center text-white min-h-screen z-0">
+    <Section id="hero" className="relative py-10 lg:py-16 xl:py-20 pt-20 pb-32 text-center text-white min-h-screen z-0">
       {/* Background Image */}
       <div
         style={{
@@ -52,7 +52,7 @@ const Hero = () => {
 
       {/* Hero Content */}
       <div ref={parallaxRef} className="container mx-auto relative z-20">
-        <div className="mb-15 mt-10">
+        <div className="mb-8 mt-10">
           <a
             href="/demo"
             className="bg-gray-800 text-white py-3 px-6 rounded-full shadow-md hover:shadow-lg"
@@ -80,7 +80,7 @@ const Hero = () => {
         <div className="flex justify-center space-x-6 mb-16">
           <a
             href="/demo"
-            className="bg-gradient-to-r from-[#5459b9] to-[#AEECF9] text-white py-3 px-6 rounded-full shadow-md hover:shadow-lg"
+            className="bg-gradient-to-r from-[#5459b9] to-[#AEECF9] text-black hover:text-white py-3 px-5 rounded-full shadow-md hover:shadow-lg"
           >
             Request Demo
           </a>

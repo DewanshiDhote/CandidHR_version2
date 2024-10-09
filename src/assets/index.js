@@ -25,7 +25,6 @@ import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 
-
 import curve1 from "./collaboration/curve-1.svg";
 import curve2 from "./collaboration/curve-2.svg";
 import discord from "./collaboration/discord.png";
@@ -47,13 +46,9 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/image-1.png";
-import roadmap2 from "./roadmap/image-2.png";
-import roadmap3 from "./roadmap/image-3.png";
-import roadmap4 from "./roadmap/image-4.png";
+
+
 import undone from "./roadmap/undone.svg";
-
-
 
 import benefitCard1 from "./benefits/card-1.svg";
 import benefitCard2 from "./benefits/card-2.svg";
@@ -72,8 +67,10 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
-
-
+import roadmap1 from"../images/image4.png";
+import roadmap2 from "../images/image1.png";
+import roadmap3 from "../images/image3.png";
+import roadmap4 from "../images/image2.png";
 export {
   brainwave,
   check,
@@ -123,9 +120,6 @@ export {
   roadmap3,
   roadmap4,
   undone,
-
- 
-
   benefitCard1,
   benefitCard2,
   benefitCard3,

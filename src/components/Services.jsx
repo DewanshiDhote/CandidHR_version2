@@ -20,8 +20,9 @@ const Services = () => {
     <Section id="how-to-use">
       <FlowChart/>
       <div className="container">
-        <Heading
-          title="What is CandidHR ?"
+        <h1 className="text-center text-5xl font-semibold"> What is <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#7076F2] to-[#AEECF9]">CandidHR ?</span></h1>
+        <Heading className="font-semibold"
+         
           text="CandidHR.ai unlocks the potential of AI-powered applications"
         />
 
@@ -40,7 +41,7 @@ const Services = () => {
             <div className="relative z-1 max-w-[17rem] ml-auto">
               <h4 className="h4 mb-4">AI-powered hiring platform</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-              CandidHR.ai revolutionizes the recruitment process by leveraging advanced AI technology to streamline hiring, making it faster.
+              It revolutionizes the recruitment process by leveraging advanced AI technology to streamline hiring, making it faster.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
