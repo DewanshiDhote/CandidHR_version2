@@ -1,9 +1,22 @@
+.footer-logo {
+  position: absolute;
+  bottom: 0px; /* Positioned at the bottom */
+  left: 0px;   /* Positioned at the left-most side */
+  width: 400px; /* Increased size for the logo */
+  opacity: 0.3; /* Add some transparency if needed */
+  z-index: -1; /* Ensures it stays behind the text content */
+}
+
+.footer-heading, .footer-list, .social-links {
+  z-index: 10; /* Ensure footer content stays above the logo */
+}
+
 .footer {
-    background-color: black;
-    padding: 70px 0;
-    width:100%;
-   
-  }
+  position: relative;
+  padding-bottom: 50px;
+  width: 100%;
+  padding-left: 0px; /* Ensure no left padding in the footer */
+}
    
   .footer-row {
     display: flex;

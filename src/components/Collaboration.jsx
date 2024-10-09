@@ -4,10 +4,18 @@ import { collabApps, collabContent } from "../constants";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 import about_logo from '../assests1/about_logo.png';
+import gradiant_image from '../assests1/gradiant.png';
 
 const Collaboration = () => {
   return (
-    <Section crosses id='collaboration'>
+    <Section crosses id='collaboration ' className='relative z-0'>
+      <div className="absolute  left-0 z-[1] w-1/2 h-auto">
+      <img
+        src={gradiant_image}
+        alt="Gradient Background"
+        className=" h-auto transform scale-x-[1]"
+      />
+    </div>
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
