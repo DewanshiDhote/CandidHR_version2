@@ -17,7 +17,7 @@ export default function SubscribeCard() {
   };
 
   return (
-    <div className="flex justify-center items-center relative x-0 mt-24 w-full p-20">
+    <div className="flex justify-center items-center relative x-0 mt-24 w-full p-20 pb-40">
       <div className="w-full max-w-2xl bg-gradient-to-br from-[#101327] via-[#1E2140] to-[#2D325A] p-8 rounded-2xl shadow-lg text-center ">
         <h1 className="text-4xl md:text-5xl font-bold text-white mb-2 pt-2">
           Join Us on Our Journey!

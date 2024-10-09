@@ -22,7 +22,7 @@ const Chatbot = () => {
             right: '25px',
             backgroundColor: '#ffffff', 
             color: '#273b97', 
-            padding: '20px 30px',
+            padding: '15px 30px',
             borderRadius: '10px',
             boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
             zIndex: 1002,

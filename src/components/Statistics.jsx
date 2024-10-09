@@ -56,7 +56,7 @@ const Statistics = () => {
           </div>
           <div className="flex-grow text-right">
             <h3 className="text-xl font-semibold">Comprehensive Hiring Workflow</h3>
-            <p className="text-gray-300 mt-3">
+            <p className="text-gray-300">
               From resume parsing to technical tests, CandidHR streamlines every step.
             </p>
           </div>
