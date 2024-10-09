@@ -5,7 +5,7 @@ import image4 from "../images/image4.png";
 
 const Statistics = () => {
   return (
-    <section className="max-w-7xl mx-auto mt-16">
+    <section className="max-w-7xl mx-auto mt-16" >
       {/* Heading */}
       <div>
         <h1 className="text-5xl mb-8 font-semibold leading-snug">

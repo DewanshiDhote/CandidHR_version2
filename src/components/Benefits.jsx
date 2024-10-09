@@ -9,13 +9,21 @@ import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
-    <Section id="features" className=" relative z-0">
+    <Section id="features" className=" relative z-0 ">
       
-      <div className="container relative z-2">
-        <Heading
-          className="md:max-w-md lg:max-w-2xl "
-          title="All-in-One Solution for Smarter, Faster Hiring"
-        />
+      <div className="container  relative z-2">
+      <div className="flex justify-center m-20">
+        <h1 className="text-5xl mb-8 font-semibold leading-snug">
+        All-in-One Solution for Smarter 
+          <br />
+          and{" "}
+          <span className="text-transparent  bg-clip-text bg-gradient-to-r from-[#7076F2] to-[#AEECF9] ">
+          Faster Hiring
+          </span>
+        </h1>
+      </div>
+
+
 
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (

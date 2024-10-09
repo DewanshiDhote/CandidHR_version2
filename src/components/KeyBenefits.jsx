@@ -24,7 +24,7 @@ const KeyBenefits = () => {
     <section className=" py-16">
       <div className="max-w-7xl mx-auto px-8">
         <h2 className="text-4xl font-bold text-center  mb-12 text-white">Who can benefit from us?</h2>
-
+ 
         <div className="flex flex-wrap justify-center gap-10">
           {benefits.map((benefit, index) => (
             <div

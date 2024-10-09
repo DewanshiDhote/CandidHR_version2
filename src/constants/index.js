@@ -238,16 +238,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Resume Screening & Matching",
-    text: "AI-driven matching that aligns resumes with job descriptions, ensuring the right candidates rise to the top.",
+    title: "Enhanced Employer Experience",
+    text: "With minimum human efforts and user-friendly interface makes applying, tracking, and engaging with the recruitment process effortless.​",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon1,
     imageUrl: "./src/assests1/about_logo.png",
   },
   {
     id: "1",
-    title: "Centralized Resume Repository",
-    text: "Store and search resumes in an intuitive, organized system for future use.",
+    title: "One Stop Solution​",
+    text: "CV Scanning, AI Screening, Ranking, Prebuilt Test, Audio interview, video interviews till final round – Everything within few clicks​",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: "./src/assests1/about_logo.png",
@@ -255,16 +255,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "AI-Powered Candidate Ranking",
-    text: "Analyze and rank candidates based on key skills, experience, and job relevance.",
+    title: "Reduction in Resume Noise ",
+    text: "Minimize resume clutter and ensure no top candidate gets overlooked in the pool of applications.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: "./src/assests1/about_logo.png",
   },
   {
     id: "3",
-    title: "Personality Screening",
-    text: "Conduct automated video and audio interviews to assess candidate personalities, reducing bias and manual effort.",
+    title: "Cost Saving (Credit Basis)​",
+    text: "Predictable costs with a flexible credit system for hiring needs.​",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon4,
     imageUrl: "./src/assests1/about_logo.png",
@@ -272,20 +272,22 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Technical Test Integration",
-    text: "Built-in technical test capabilities to ensure candidates meet the required skill levels.",
+    title: "Ease of communication​",
+    text: "Minimal manual interaction with ease of communication to candidates using automated emails​",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon1,
     imageUrl: "./src/assests1/about_logo.png",
   },
   {
     id: "5",
-    title: "Seamless Integration",
-    text: "Integrate easily with your existing HR systems and workflows.",
+    title: "Time-Saving Automation",
+    text: "Auto set emails and pre built automated tests saves time of continues interaction and allows candidates to complete the process as per their convivence​",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: "./src/assests1/about_logo.png",
   },
+  
+  
 ];
 
 export const socials = [
